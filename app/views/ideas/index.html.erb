@@ -1,5 +1,4 @@
 <h1>Listing ideas</h1>
-
 <table>
   <thead>
     <tr>
@@ -20,7 +19,7 @@
         <td><%= idea.picture %></td>
         <td><%= link_to 'Show', idea %></td>
         <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
-        <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: '你確定嗎?' } %></td>
       </tr>
     <% end %>
   </tbody>

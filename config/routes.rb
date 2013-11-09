@@ -1,5 +1,5 @@
 Web::Application.routes.draw do
-  resources :coms
+  root :to => 'ideas#index'
 
   resources :ideas
 
